@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="22.890000000000043" y="356.0">com.type2labs.nevernote.jpa.entity.RoleName</node>
+    <node x="177.00000000000003" y="501.0">com.type2labs.nevernote.jpa.entity.SharedNotebook</node>
+    <node x="0.0" y="523.0">com.type2labs.nevernote.jpa.entity.Role</node>
+    <node x="275.20833333333337" y="145.0">com.type2labs.nevernote.jpa.entity.Note</node>
+    <node x="311.20833333333337" y="334.0">com.type2labs.nevernote.jpa.entity.Notebook</node>
+    <node x="201.22333333333336" y="0.0">com.type2labs.nevernote.jpa.entity.AccessLevel</node>
+    <node x="132.19000000000005" y="698.0">com.type2labs.nevernote.jpa.entity.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.type2labs.nevernote.jpa.entity.SharedNotebook" target="com.type2labs.nevernote.jpa.entity.AccessLevel">
+      <point x="-73.50000000000003" y="-58.5" />
+      <point x="201.5" y="481.0" />
+      <point x="212.6216666666667" y="481.0" />
+      <point x="212.6216666666667" y="125.0" />
+      <point x="217.59833333333336" y="125.0" />
+      <point x="-49.125" y="47.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.Notebook" target="com.type2labs.nevernote.jpa.entity.User">
+      <point x="67.08333333333331" y="58.5" />
+      <point x="458.7916666666667" y="481.0" />
+      <point x="426.31500000000005" y="481.0" />
+      <point x="426.31500000000005" y="678.0" />
+      <point x="428.59000000000003" y="678.0" />
+      <point x="140.39999999999998" y="-113.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.SharedNotebook" target="com.type2labs.nevernote.jpa.entity.User">
+      <point x="24.49999999999997" y="58.5" />
+      <point x="299.5" y="638.0" />
+      <point x="272.5900000000001" y="638.0" />
+      <point x="-15.599999999999966" y="-113.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.SharedNotebook" target="com.type2labs.nevernote.jpa.entity.Notebook">
+      <point x="73.49999999999997" y="-58.5" />
+      <point x="348.5" y="481.0" />
+      <point x="351.45833333333337" y="481.0" />
+      <point x="-40.25" y="58.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.Notebook" target="com.type2labs.nevernote.jpa.entity.Note">
+      <point x="-60.375" y="-58.5" />
+      <point x="331.33333333333337" y="309.0" />
+      <point x="304.33333333333337" y="309.0" />
+      <point x="-87.375" y="69.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.User" target="com.type2labs.nevernote.jpa.entity.Role">
+      <point x="-140.39999999999992" y="-113.5" />
+      <point x="147.79000000000013" y="678.0" />
+      <point x="39.25" y="678.0" />
+      <point x="-39.25" y="36.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.Note" target="com.type2labs.nevernote.jpa.entity.AccessLevel">
+      <point x="-58.25" y="-69.5" />
+      <point x="333.45833333333337" y="125.0" />
+      <point x="283.09833333333336" y="125.0" />
+      <point x="16.375" y="47.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.User" target="com.type2labs.nevernote.jpa.entity.Notebook">
+      <point x="78.0" y="-113.5" />
+      <point x="366.19000000000005" y="668.0" />
+      <point x="404.31500000000005" y="668.0" />
+      <point x="13.416666666666686" y="58.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.User" target="com.type2labs.nevernote.jpa.entity.SharedNotebook">
+      <point x="-77.99999999999994" y="-113.5" />
+      <point x="210.1900000000001" y="678.0" />
+      <point x="201.50000000000003" y="678.0" />
+      <point x="-73.5" y="58.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.Note" target="com.type2labs.nevernote.jpa.entity.Notebook">
+      <point x="87.375" y="69.5" />
+      <point x="479.08333333333337" y="309.0" />
+      <point x="452.08333333333337" y="309.0" />
+      <point x="60.375" y="-58.5" />
+    </edge>
+    <edge source="com.type2labs.nevernote.jpa.entity.Role" target="com.type2labs.nevernote.jpa.entity.RoleName">
+      <point x="-39.25" y="-36.5" />
+      <point x="39.25" y="481.0" />
+      <point x="50.39000000000004" y="481.0" />
+      <point x="-27.5" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="320.5129870129869" y="528.4242424242423" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

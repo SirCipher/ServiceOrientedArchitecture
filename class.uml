@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-605.0" y="-190.0">com.type2labs.nevernote.controller.AuthorisationController</node>
+    <node x="0.0" y="118.0">com.type2labs.nevernote.controller.NotebookController</node>
+    <node x="0.0" y="310.0">com.type2labs.nevernote.controller.UserController</node>
+    <node x="241.0" y="214.0">com.type2labs.nevernote.controller.RoleRepository</node>
+    <node x="0.0" y="214.0">com.type2labs.nevernote.controller.NoteController</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.type2labs.nevernote.controller.AuthorisationController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
